@@ -22,7 +22,7 @@ def email(self, args):
     try:
         send_message = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
         response = send_message.send(message)
-        
+
     except Exception as e:
         print(e.message)
 

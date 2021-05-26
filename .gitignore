@@ -1,2 +1,6 @@
 .env
+.coverage
 sendgrid.env
+__pycache__
+htmlcov/
+.coveragerc
