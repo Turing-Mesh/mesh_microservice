@@ -36,5 +36,5 @@ class EmailService(Resource):
 
 api.add_resource(EmailService, "/api/v1/email")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run()
